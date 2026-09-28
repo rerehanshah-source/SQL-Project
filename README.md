@@ -110,7 +110,7 @@ INNER JOIN skills_dim
     ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
-![Top Paying Jobs](assets\2_top_paying_job_skills.png)
+![Top Paying Jobs](assets/2_top_paying_job_skills.png)
 
 See [2_top_paying_job_skills.sql](./project_sql/2_top_paying_job_skills.sql)
 ## Results
