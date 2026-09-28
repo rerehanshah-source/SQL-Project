@@ -7,7 +7,7 @@ name as company_name
 FROM job_postings_fact
 left join company_dim on job_postings_fact.company_id = company_dim.company_id
 where 
-job_title_short = 'Data Analyst' AND
+job_title_short = 'Data Analys' AND
 job_location = 'Anywhere'and
 salary_year_avg IS NOT NULL
 order BY 
